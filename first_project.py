@@ -9,6 +9,6 @@ name = input("what is your name: ")
 
 print("welcome to class"  + name)
 
-print("what did you do this weekend: ")
+print("what did you do this + weekend +: ")
 "weekend = input"()
-print("that is super cool i wish i " + weekend + " this weekend")
+print("that is super cool i wish i " + "weekend" + " this + weekend +")
