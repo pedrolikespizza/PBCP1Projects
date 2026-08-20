@@ -1,5 +1,5 @@
 #pedro bakare, hello world project
 
-name = input("what is your name ")
+name = input("what is your name: ")
 
-print (" welcome + name ")
+print (" welcome " +name)
