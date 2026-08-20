@@ -1,4 +1,5 @@
-"Pedro Bakare, Hello World Project"
-#input
-name = input("what is your name")
-print("welcome + name: ")
+#pedro bakare, hello world project
+
+name = input("what is your name ")
+
+print (" welcome + name ")
