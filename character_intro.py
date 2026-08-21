@@ -1,8 +1,16 @@
-# pedro bakare, character intro 
-character_name = ("camden")
+# pedro bakare, character intro
+name = (" colin ")
 
-character_age = 21
+age = 21
 
-character_job = ("chef")
+job = (" chef ")
 
-character_birthplace = ("")
+birthplace = (" spain ")
+
+print(" hi my name is" +name )
+
+print ("i am a" +job)
+
+print(" i am from " +birthplace)
+
+print(" and i am " +age)
