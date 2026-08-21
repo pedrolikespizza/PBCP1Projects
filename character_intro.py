@@ -13,4 +13,4 @@ print ("i am a" +job)
 
 print(" i am from " +birthplace)
 
-print(" and i am " +age)
+print(" and i am ",age)
