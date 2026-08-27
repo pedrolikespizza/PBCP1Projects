@@ -7,11 +7,11 @@ age = 15
 
 sport = "baseball"
 
-input(" hey, what is your name? " + name ) 
+input(" Hey, what is your name ? My name is " + name ) 
 
-input(" that is a wonderful name. what is your favoritve fruit? "  + fruit)
+input("That is a wonderful name. What is your favoritve fruit ? I love "  + fruit)
 
-input("wow really! i love bananas too. how old are you?", age )
-(" wow so you're close to getting your drivers permit. do you like any sports? " + sport)
+age=input("Wow really! I like bananas too. How old are you ? I am 15 " )
+input(" Wow, so you're close to getting your drivers permit. Do you like any sports? I like  " + sport)
 
-(" that's nice, i dont really like baseball though.")
+input(" That's nice, I dont really like baseball though.")
