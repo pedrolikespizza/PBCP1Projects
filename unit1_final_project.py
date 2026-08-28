@@ -1,17 +1,16 @@
 # pedro bakare unit 1 final test
-name = "Will"
+name = "Adam"
 
-fruit = "bananas"
+fruit = "mangos"
 
-age = 15
+hometown = "spain"
+sport= "football"
 
-sport = "baseball"
+input("Hey what is your name? " +name)
 
-input(" Hey, what is your name ? " + name ) 
+input("That's a cool name. Where are you from Adam? " +hometown)
+input(" wow, i've always wanted to go to spain ")
+input("what is your favorite fruit?")
+input(" mangos are so tasty. do you like any sports? " "Yes, I like " +sport)
 
-input("That is a wonderful name. What is your favoritve fruit ?  "  + fruit)
-
-input("Wow really! I like bananas too. How old are you ?  "+age  )
-input(" Wow, so you're close to getting your drivers permit. Do you like any sports? " + sport)
-
-input(" That's nice, I dont really like baseball though.")
+input("Wait really? I love football too! ")
