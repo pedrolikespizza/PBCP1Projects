@@ -2,14 +2,17 @@
 name = input("what is your name:")
 
 print("hello "+ name)
-age = input("how old are you?")
+
+month = input("when is your birthday")
+
+print("we have the same birthday month!")
 
 country = input("where are you from?" )
 
  
 print("wow, i've always wanted to go there")
 
-fruit = input("do you like any fruits?")
+fruit = input("what is your favorite fruit ?")
 
 print("oh, i dont really like those")
 
