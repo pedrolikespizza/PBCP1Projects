@@ -14,7 +14,7 @@ print("wow, i've always wanted to go there")
 
 fruit = input("what is your favorite fruit ?")
 
-print("oh, i like dragon fruit more.")
+print("oh, i like dragon fruit more."
 
 
 
