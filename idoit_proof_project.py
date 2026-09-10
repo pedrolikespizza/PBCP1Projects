@@ -1,10 +1,9 @@
 # pedro bakare idoit proof project
-while True:
-try:
- phone_number     
 
 name=input("what is your name: ").title()
-phone_number = input("what is your nubmer:")
+
+phone_number = input("what is your phone number")
+
 gpa = float(input("what is your gpa:"))
 
  

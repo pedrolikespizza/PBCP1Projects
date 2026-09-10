@@ -2,10 +2,10 @@
 
 
 # syntax error
-print("hello)
+print("hello")
   # indentation error
 if true:
-print("this is true") # <= identation error
+  print("this is true") # <= identation error
 
 people = 10
 print(poeple)
@@ -18,12 +18,12 @@ print(apples * people )
 
 #run time errors
 while True:
-   try:
+try:
  fav_num = int(input ("what is your favorite number"))
 except:
       print("thats not a number")
-      else:
-        break
+else:
+break
         
 
-        print(4+ fav_num)
+print(4+ fav_num)
