@@ -13,7 +13,7 @@ pi=3.1415
 print(5//2) # integer division ( it only gives you the integer)
 print(5/2) # normal division will always give you a float
 
-# modulo = %
+# modulo = % the answer to modulo is the remainder of the problem?soultion
 print(5%2)
 print(10%4)
 print (15%5)
