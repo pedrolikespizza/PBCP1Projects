@@ -1,2 +1,6 @@
 # pb crew shares project period 2
-names = input("what are the names of the people in your crew?")
+import random
+
+input("how many pirates are on your ship: ")
+units = random.randint(500,5000)
+rounded_unit =
