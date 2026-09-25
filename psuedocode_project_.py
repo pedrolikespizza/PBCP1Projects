@@ -1,6 +1,23 @@
 """ pb period 2 crew shares psuedocode project
+
 GET number of pirates from user
+
 GET random number from 500 and 5000
+
+CALCULATE crew number of pirates * 3
+
+CALCULATE credit amount - crew number of pirates * 3
+
+CALCULATE credit amount / by .13 for yondu
+
+CALCULATE yondu credit leftovers yondu credit - ()
+
+DIVIDE the remaining amount credits between every crew member including yondu and peter
+
+ROUND peter, yondu, and the other crew members share to 2 decimal points.
+
+OUTPUT how many pirates are on your ship. random number of units, yondu's share, peter's share, crew's share.
+
 
 yondu gives every crew member other than himself and peter 3 units. 
 yondu takes 13% of the total then gives peter 11% of whats left.
