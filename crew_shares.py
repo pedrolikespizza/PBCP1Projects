@@ -5,7 +5,7 @@ pirate_amount = float(input("how many pirates are on your ship (including yondu 
 units = random.randint(500,5000)
 
 #13%=0.13
-
+(crews_share )
 yondu_share = round(0.13 * units, 2)
 remainder = units - yondu_share
 peter_share = round(0.11 * remainder,2)
