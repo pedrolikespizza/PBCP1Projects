@@ -55,4 +55,5 @@ for i in range(20, 0, -1):
 # for is for for loop
 # the word next to the for is our iterater variable, how we know if it's our iterater varible is if it is the single version of a variable.
 # i
-# range builds a list for you
+# range builds a list for you 
+# print(name, end="") makes the end be what we want it to be, and we can change it to anything we want. including /t
