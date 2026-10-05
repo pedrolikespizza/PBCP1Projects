@@ -1,6 +1,3 @@
 # pb user sign in project
 
-for w in range(1, 13):
-    for z in range(1, 13):
-        print(f"{w * z:4}", end="")
-    print()
+username = input("what is your name lil tung")
