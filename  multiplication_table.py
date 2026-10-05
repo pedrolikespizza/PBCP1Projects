@@ -1,6 +1,6 @@
 #  pb period 2 multipulcation project
 
-for w in range(1, 13):
-    for z in range(1, 13):
-        print(f"{w * z:4}", end="")
+for r in range(1, 13):
+    for h in range(1, 13):
+        print(f"{r * h:4}", end="")
     print()
