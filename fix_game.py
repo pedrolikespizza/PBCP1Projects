@@ -37,10 +37,10 @@ for score in scores: # i took away the second total = 0. it was a logic error. i
     total = total + score
 
 average = total / rounds
-print("Your average guesses per round was " + str(average))
+print("Your average guesses per round was " + str(round(average, 2))) 
 
 best_round = scores[0]
-for i in range(1, rounds - 1):
+for i in range(1, rounds): # i took away the - 1. it was a logic error. it prevented the loop from working properly
     if scores[i] < best_round:
         best_round = scores[i]
 
