@@ -6,4 +6,4 @@ length = len(password_1) >= 8
 
 uppercase = any(char.isupper()for char in password_1)
 
-lowercase = any(char.islower() for char in password)
+lowercase = any(char.islower() for char in password_1)
