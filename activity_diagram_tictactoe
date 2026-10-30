@@ -1,0 +1,50 @@
+ #Pedro Bakare peroid 1 activity diagram tic tac toe
+	player x	game	player o
+no
+get player input
+
+print board
+
+
+
+game start
+get player input
+is square vaild
+no
+No
+
+is square vaild
+
+no
+
+no
+is square open
+yes
+yes
+is square open
+yes
+
+
+
+no
+fill square with X
+yes
+
+fill square with O
+did X get a colum filled with X's
+X wins
+yes
+is board full
+no
+O wins
+does O have a colum filled with O's
+yes
+Yes
+it's a tie
+
+game end
+is board full
+no
+Yes
+after printing the board, you should check if there is a win. if there ISNT a win, check if the board is full. if the board is full and no win is achieved, its a tie -Dan
+it is a tie
