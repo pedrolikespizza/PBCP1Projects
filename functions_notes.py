@@ -11,6 +11,15 @@ def birthday(name, age):
     print("happy birthday to you")
     print(f"you sre now {age} years old ")
 
+
+def stupid_proof(user_answer, correct):
+    user_answer = user_answer.strip().title()
+    if user_answer in correct:
+        return user_answer
+    else:
+        return False
+
+
 print(" november")
 birthday(" tia")
 print(" december")
@@ -30,4 +39,8 @@ birthday()
 
 # reusableity 
 
-# abstraction lets us use a function without knowing what the function does
+# abstraction lets us use a function without knowing what the function does\
+
+while True:
+    capital = input("what is the capital of utah:")
+    stupid_proof(capital, ["salt lake city," "slc", "salt lake"])
