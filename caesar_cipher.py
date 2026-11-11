@@ -2,4 +2,4 @@
 
 encode_1 = input("enter a word to encode or enter a word to decode:")
 
-
+wakeem hates my code
