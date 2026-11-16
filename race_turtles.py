@@ -21,7 +21,7 @@ red.forward(100)
 red.color("red")
 red.goto(100,100)
 red.pendown()
-
+red.
 
 blue = t.Turtle()
 blue.penup()
@@ -63,8 +63,6 @@ yellow.forward(100)
 yellow.color("yellow")
 yellow.goto(100,500)
 yellow.pendown()
-
-
 
 
 
