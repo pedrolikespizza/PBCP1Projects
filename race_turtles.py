@@ -21,7 +21,7 @@ red.forward(100)
 red.color("red")
 red.goto(100,100)
 red.pendown()
-red.
+
 
 blue = t.Turtle()
 blue.penup()
@@ -65,14 +65,18 @@ yellow.goto(100,500)
 yellow.pendown()
 
 
+racers = [red, blue, green, purple, yellow]
 
 
+winner = None
 
-
-
-
-
-
+while winner == None:
+    for racer in racers:
+        racer.forward(random.randit(1,10))
+    if racer.xcor() >= 500:
+     winner = racer.pencolor()
+    break
+print("winner is " ,winner,)    
 
 t.done()
 

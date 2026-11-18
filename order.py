@@ -3,15 +3,12 @@
 food_choice = input(" what do you want to order:")
 
 menu = {
-"order": "burger, fries, sandwich, chicken tender, coke, sprite, lemonade",
-    "burgers": "$5",
-    "sandwich": "$3",
-    "chicken tenders": "$2",
-    "fries": "1", 
-    "drink": "sprite",
-    "drink": "coke",
-    "drink": "lemonade",
-
+"main course 1": "cheeseburger",
+"main course 2": "burrito",
+"side 1": "fries",
+"side 2": "mac and cheese",
+"drink 1": "sprite",
+"drink 2": "lemonade",
 }
 
 keys = list(menu.keys())
