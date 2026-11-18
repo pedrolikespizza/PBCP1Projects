@@ -19,7 +19,7 @@ red.penup()
 red.shape("turtle")
 red.forward(100)
 red.color("red")
-red.goto(100,100)
+red.goto(-500,100)
 red.pendown()
 
 
@@ -28,7 +28,7 @@ blue.penup()
 blue.shape("turtle")
 blue.forward(200)
 blue.color("blue")
-blue.goto(100,200)
+blue.goto(-500,200)
 blue.pendown()
 
 
@@ -39,7 +39,7 @@ green.penup()
 green.shape("turtle")
 green.forward(300)
 green.color("green")
-green.goto(100,300)
+green.goto(-500,-200)
 green.pendown()
 
 
@@ -51,7 +51,7 @@ purple.penup()
 purple.shape("turtle")
 purple.forward(100)
 purple.color("purple")
-purple.goto(100,400)
+purple.goto(-500,-100)
 purple.pendown()
 
 
@@ -61,22 +61,12 @@ yellow.penup()
 yellow.shape("turtle")
 yellow.forward(100)
 yellow.color("yellow")
-yellow.goto(100,500)
+yellow.goto(-500,0)
 yellow.pendown()
 
 
-racers = [red, blue, green, purple, yellow]
+for turt in turtle:
 
-
-winner = None
-
-while winner == None:
-    for racer in racers:
-        racer.forward(random.randit(1,10))
-    if racer.xcor() >= 500:
-     winner = racer.pencolor()
-    break
-print("winner is " ,winner,)    
 
 t.done()
 
