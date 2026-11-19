@@ -65,7 +65,6 @@ yellow.goto(-500,0)
 yellow.pendown()
 
 
-for turt in turtle:
 
 
 t.done()
