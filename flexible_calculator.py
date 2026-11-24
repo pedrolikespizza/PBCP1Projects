@@ -34,7 +34,7 @@ def calc(operation, *numeros):
         return math.prod(numeros)
 
 
-math_type = get_type("what operation do you want to do. (sum, average, maxium, minium, product) ")
+math_type = get_type("what operation do you want to do. (sum, average, max, min, product)" )
     
 user_number = get_num()
 
